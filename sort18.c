@@ -14,7 +14,7 @@ main()
 		printf("cell%d\t", l+1);
 	}
 	size = l;
-	print(array, size);
+	//print(array, size);
 	for(c=0;c<(size-1);)
         {
                 for(i=0,c=0;i<(size-1);i++)
@@ -29,9 +29,9 @@ main()
                                 c++;
                         }
                 }
-	print(array, size);
 	}
-	printf("sorted array of %d elements\n", size);
+	print(array, size);
+	//printf("sorted array of %d elements\n", size);
 	exit(0);	
 }
 
